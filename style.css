@@ -2,13 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
 }
 .main{
    background-image: url("./img/IN-en-20250421-TRIFECTA-perspective_dc5bcfdf-88a5-4972-8ffe-b28ff942f76e_large.jpg");
    background-size: cover;
-    color: white;
+   /* background: linear-gradient rgba(0, 0, 0, 0,2); */
+   color: white;
     width: 100vw;
     height: 100vh;
+    
 }
 nav{
     display: flex;
@@ -63,3 +66,38 @@ nav img{
   .hero-txt h1{
     font-size: 64px;
   }
+
+  .hero-txt p{
+    margin-top: 30px;
+  } 
+  .hero-txt h3{
+    margin-top: 15px;
+  }
+
+   .one{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .one input {
+    padding: 17px 90px;
+    border: 0.5px solid rgba(207, 204, 204, 0.4);
+    border-radius: 5px;
+    background-color: rgba(0, 0,0, 0.4);
+  }
+
+  button{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius:4px;
+    padding: 17px 60px;
+    margin: 7px;
+
+
+  }
+
+  
